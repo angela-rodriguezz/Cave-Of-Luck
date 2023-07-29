@@ -6,3 +6,9 @@ A procedural world generation game in which you enter an integer as a seed and r
 
 Executed the world generation algorithm, UI, main menu interface, saving/loading, and user interactivity game mechanics.
 
+## Data Structures
+
+### Part 1: Room Generation Algorithm
+
+I used Java's ``Tileset`` and ``StdDraw library`` to implement the room generation algorithm.
+
