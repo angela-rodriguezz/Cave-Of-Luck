@@ -12,5 +12,7 @@ Executed the world generation algorithm, UI, main menu interface, saving/loading
 
 I used Java's ``Tileset`` and ``StdDraw library`` to implement the room generation algorithm.
 
+Some of the structured included for the algorithm include:
+
 ## Video Demonstration
 [Click Here!](https://www.youtube.com/watch?v=FtFxGPzvim0)
