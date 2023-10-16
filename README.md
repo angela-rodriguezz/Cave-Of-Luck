@@ -6,13 +6,13 @@ A procedural world generation game in which you enter an integer as a seed and r
 
 Executed the world generation algorithm, UI, main menu interface, saving/loading, and user interactivity game mechanics.
 
-## Data Structures
-
 ### Part 1: Room Generation Algorithm
+
+![RoomImage](https://sp23.datastructur.es/materials/proj/proj3/img/UI_example0.png)
 
 I used Java's ``Tileset`` and ``StdDraw library`` to implement the room generation algorithm.
 
-Some of the structured included for the algorithm include:
+In order to generate the output of rooms in the Tile system, I implemented an algorithm similar to Dijkstra's algorithm. For instance, first generating random coordinates within the 2D grid interface and then building the the rooms across the grid separately at first. Each room is generated in a rectangular shape and pseudo-randomly generated. After randomly generating rooms based on different seeds the player inserts in the main menu (discussed later here!), 
 
 ## Video Demonstration
 [Click Here!](https://www.youtube.com/watch?v=FtFxGPzvim0)
