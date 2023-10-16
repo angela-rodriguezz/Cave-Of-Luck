@@ -8,7 +8,7 @@ Executed the world generation algorithm, UI, main menu interface, saving/loading
 
 ### Part 1: Room Generation Algorithm
 
-![RoomImage](https://sp23.datastructur.es/materials/proj/proj3/img/UI_example0.png)
+![RoomImage](https://sp23.datastructur.es/materials/proj/proj3/img/compliant_world_example.png)
 
 I used Java's ``Tileset`` and ``StdDraw library`` to implement the room generation algorithm.
 
