@@ -19,7 +19,7 @@ I used Java's ``Tileset`` and ``StdDraw library`` to implement the room generati
 
 In order to generate the output of rooms in the Tile system, I implemented an algorithm similar to Dijkstra's algorithm. For instance, first generating random coordinates within the 2D grid interface and then building the the rooms across the grid separately at first. Each room is generated in a rectangular shape and pseudo-randomly generated. 
 
-After randomly generating rooms based on different seeds the player inserts in the main menu [(discussed later here!)](#Part-3:-Heads-Up-Display-(HUD)-Creation), we must connect each room together by a hall. Since the locations of the rooms and hallways should be random, each of the hallways should be built from the 
+After randomly generating rooms based on different seeds the player inserts in the main menu [discussed later here!](#Part-3:-Heads-Up-Display-(HUD)-Creation), we must connect each room together by a hall. Since the locations of the rooms and hallways should be random, each of the hallways should be built from the 
 
 ### Part 2: Main Menu System
 
