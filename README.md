@@ -9,6 +9,8 @@ Executed the world generation algorithm, UI, main menu interface, saving/loading
 ## Video Demonstration
 [Click Here!](https://www.youtube.com/watch?v=FtFxGPzvim0)
 
+## Development Process
+
 ### Part 1: Room Generation Algorithm
 
 ![RoomImage](https://sp23.datastructur.es/materials/proj/proj3/img/compliant_world_example.png)
