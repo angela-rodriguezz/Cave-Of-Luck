@@ -19,7 +19,13 @@ In order to generate the output of rooms in the Tile system, I implemented an al
 
 After randomly generating rooms based on different seeds the player inserts in the main menu (discussed later here!), we must connect each room together by a hall. 
 
-### Part 2: Heads-Up Display (HUD) Creation
+### Part 2: Main Menu System
+
+![Menu](https://sp23.datastructur.es/materials/proj/proj3/img/mainmenu_example.png)
+
+With this system, we need to first handle the generation of a new game that prompts the user to enter a “random seed” of any long value of their choosing. Luckily, the `Core.Engine` system that is integrated within the project contains the `interactWithInputString()` and `interactWithKeyboard()` which identifies the user output and what character is outputted from the user. When a user types `N`, the new 
+
+### Part 3: Heads-Up Display (HUD) Creation
 
 ![HUD](https://sp23.datastructur.es/materials/proj/proj3/img/UI_example0.png)
 
