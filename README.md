@@ -19,13 +19,13 @@ I used Java's ``Tileset`` and ``StdDraw library`` to implement the room generati
 
 In order to generate the output of rooms in the Tile system, I implemented an algorithm similar to Dijkstra's algorithm. For instance, first generating random coordinates within the 2D grid interface and then building the the rooms across the grid separately at first. Each room is generated in a rectangular shape and pseudo-randomly generated. 
 
-After randomly generating rooms based on different seeds the player inserts in the main menu (discussed later here!), we must connect each room together by a hall. 
+After randomly generating rooms based on different seeds the player inserts in the main menu [(discussed later here!)](https://github.com/angela-rodriguezz/Cave-Of-Luck/edit/main/README.md#part-3-heads-up-display-hud-creation), we must connect each room together by a hall. Since the locations of the rooms and hallways should be random, each of the hallways should be built from the 
 
 ### Part 2: Main Menu System
 
-![Menu](https://sp23.datastructur.es/materials/proj/proj3/img/mainmenu_example.png)
+![Menu](https://github.com/angela-rodriguezz/Cave-Of-Luck/blob/6d05b5eb8dadd476c616334184b7eb74c11c71e6/cavemenu.png)
 
-With this system, we need to first handle the generation of a new game that prompts the user to enter a “random seed” of any long value of their choosing. Luckily, the `Core.Engine` system that is integrated within the project contains the `interactWithInputString()` and `interactWithKeyboard()` which identifies the user output and what character is outputted from the user. When a user types `N`, the new 
+With this system, we need to first handle the generation of a new game that prompts the user to enter a “random seed” of any long value of their choosing. Luckily, the `Core.Engine` system that is integrated within the project contains the `interactWithInputString()` and `interactWithKeyboard()` which identifies the user output and what character is outputted from the user. When a user types `N`, a pop up window appears to await user input of any number that aides in the room generation process.
 
 ### Part 3: Heads-Up Display (HUD) Creation
 
