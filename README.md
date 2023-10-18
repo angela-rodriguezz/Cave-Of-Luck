@@ -27,7 +27,13 @@ Lastly, each hallway and room is bordered by walls. We do this by adding a tile 
 
 ![Menu](https://github.com/angela-rodriguezz/Cave-Of-Luck/blob/6d05b5eb8dadd476c616334184b7eb74c11c71e6/cavemenu.png)
 
-With this system, we need to first handle the generation of a new game that prompts the user to enter a “random seed” of any long value of their choosing. Luckily, the `Core.Engine` system that is integrated within the project contains the `interactWithInputString()` and `interactWithKeyboard()` which identifies the user output and what character is outputted from the user. When a user types `N`, a pop up window appears to await user input of any number that aides in the room generation process.
+With this system, we need to first handle the generation of a new game that prompts the user to enter a “random seed” of any long value of their choosing. Luckily, the `Core.Engine` system that is integrated within the project contains the `interactWithInputString()` and `interactWithKeyboard()` which identifies the user output and what character is outputted from the user. 
+
+- Typing `N` reveals a pop up window to await user input of any number that enables the room generation process.
+- Typing `L` loads your progress in the game of which you had started playing previously.
+- Typing `I` reveals the pop up window for the background and directions of the game.
+- Typing `E` allows you to choose the name of the character that will be moving across the map. This name will appear within the HUD when the game begins.
+- Typing `Q` quits the application.
 
 ### Part 3: Heads-Up Display (HUD) Creation
 
