@@ -39,3 +39,8 @@ With this system, we need to first handle the generation of a new game that prom
 
 ![HUD](https://sp23.datastructur.es/materials/proj/proj3/img/UI_example0.png)
 
+Now, instead of measuring keyboard input, we must measure mouse hover input. Using the StdDraw library, we have the mouseX and mouseY component which examines if the mouse hovers over any area of the map. If the mouse hovers a new area that is not the same component as the one previously, the HUD will change the description on the top left corner of the screen to match the new component.
+
+Furthermore, the score is marked to illustrate if the player has collected any items. If so, the score changes from 0 to the lucky number that was generated within the item. Also any name that the user typed within the main menu is always displayed on the top right corner of the screen.
+
+
