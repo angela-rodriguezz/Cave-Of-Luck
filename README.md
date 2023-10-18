@@ -43,4 +43,9 @@ Now, instead of measuring keyboard input, we must measure mouse hover input. Usi
 
 Furthermore, the score is marked to illustrate if the player has collected any items. If so, the score changes from 0 to the lucky number that was generated within the item. Also any name that the user typed within the main menu is always displayed on the top right corner of the screen.
 
+### Part 4: Saving & Loading
+
+In order to regenerate the world after quitting, we must recover the list of moves and keyboard commands the user had used previously. We can record these moves within a saved document, registering them until the next load. Therefore, the world is generated the same way that it was before quitting.
+
+
 
